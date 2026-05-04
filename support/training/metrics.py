@@ -47,6 +47,8 @@ class MetricEngine:
     # ── Public API ────────────────────────────────────────────────────────────
 
     def compute(self, step: int) -> dict:
+
+        
         ###  It uses the configuation file to generate smootha nd restirct curve
         """Return a metric dict for the given global step (1-indexed)."""
         progress = step / self._total_steps
