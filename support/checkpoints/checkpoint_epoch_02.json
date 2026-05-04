@@ -2,12 +2,12 @@
   "epoch": 2,
   "metrics": {
     "epoch": 2,
-    "train_loss": 0.2227,
-    "train_acc": 0.898,
-    "train_f1": 0.8601,
-    "train_miou": 0.7312,
-    "val_loss": 0.2354,
-    "val_acc": 0.8825,
-    "val_miou": 0.7069
+    "train_loss": 0.2087,
+    "train_acc": 0.8987,
+    "train_f1": 0.8645,
+    "train_miou": 0.745,
+    "val_loss": 0.2344,
+    "val_acc": 0.8911,
+    "val_miou": 0.7194
   }
 }

@@ -31,7 +31,7 @@ class ADE20KDataset:
         return [
             {
                 "image": str(self.root / "images" / self.split / f"ADE_{self.split}_{i:08d}.jpg"),
-                "mask":  str(self.root / "annotations" / self.split / f"ADE_{self.split}_{i:08d}.png"),
+                "mask":  str(self.root / "unannotations" / self.split / f"ADE_{self.split}_{i:08d}.png"),
             }
             for i in range(1, n + 1)
         ]
