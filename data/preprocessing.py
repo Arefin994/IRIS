@@ -21,7 +21,7 @@ class Compose:
             image, mask = t(image, mask)
         return image, mask
 
-
+# Stochastic augmentations 
 class RandomHorizontalFlip:
     def __init__(self, p=0.5):
         self.p = p
@@ -60,6 +60,7 @@ class PhotoMetricDistortion:
 
 
 class Normalize:
+    #imagenet statistics
     def __init__(self, mean=MEAN, std=STD):
         self.mean = mean
         self.std  = std
