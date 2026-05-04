@@ -1,0 +1,35 @@
+{
+  "note": "a1 OUTPUT \u2014 simulated training pipeline",
+  "epoch_summaries": [
+    {
+      "epoch": 1,
+      "train_loss": 0.508,
+      "train_acc": 0.8054,
+      "train_f1": 0.7592,
+      "train_miou": 0.6276,
+      "val_loss": 0.5425,
+      "val_acc": 0.7869,
+      "val_miou": 0.5985
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2227,
+      "train_acc": 0.898,
+      "train_f1": 0.8601,
+      "train_miou": 0.7312,
+      "val_loss": 0.2354,
+      "val_acc": 0.8825,
+      "val_miou": 0.7069
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1159,
+      "train_acc": 0.9291,
+      "train_f1": 0.9022,
+      "train_miou": 0.7903,
+      "val_loss": 0.1459,
+      "val_acc": 0.9215,
+      "val_miou": 0.7669
+    }
+  ]
+}
