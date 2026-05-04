@@ -12,7 +12,8 @@ import random
 
 
 class MetricEngine:
-    """
+    """##that simulate training metrics like loss and accuracy
+    
     Computes per-step training metrics.
 
     Internally uses the convergence_profile block from model_config.json
@@ -46,6 +47,7 @@ class MetricEngine:
     # ── Public API ────────────────────────────────────────────────────────────
 
     def compute(self, step: int) -> dict:
+        ###  It uses the configuation file to generate smootha nd restirct curve
         """Return a metric dict for the given global step (1-indexed)."""
         progress = step / self._total_steps
         n        = self._noise
@@ -96,6 +98,7 @@ class MetricEngine:
             "miou":      round(miou,      4),
         }
 
+    ### Then we add some random noise to get the output matrix 
     def epoch_summary(self, epoch: int, total_epochs: int) -> dict:
         """Return summary metrics at the end of an epoch."""
         steps_per_epoch = self._total_steps // total_epochs
