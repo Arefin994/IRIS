@@ -1,0 +1,35 @@
+{
+  "note": "MOCK OUTPUT \u2014 simulated training pipeline",
+  "epoch_summaries": [
+    {
+      "epoch": 1,
+      "train_loss": 0.5059,
+      "train_acc": 0.8042,
+      "train_f1": 0.7656,
+      "train_miou": 0.6268,
+      "val_loss": 0.5288,
+      "val_acc": 0.7961,
+      "val_miou": 0.6061
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.2181,
+      "train_acc": 0.8951,
+      "train_f1": 0.8579,
+      "train_miou": 0.7352,
+      "val_loss": 0.2297,
+      "val_acc": 0.8765,
+      "val_miou": 0.7064
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.1097,
+      "train_acc": 0.9293,
+      "train_f1": 0.8998,
+      "train_miou": 0.7891,
+      "val_loss": 0.129,
+      "val_acc": 0.9186,
+      "val_miou": 0.7663
+    }
+  ]
+}

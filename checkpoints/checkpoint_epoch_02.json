@@ -1,0 +1,13 @@
+{
+  "epoch": 2,
+  "metrics": {
+    "epoch": 2,
+    "train_loss": 0.2181,
+    "train_acc": 0.8951,
+    "train_f1": 0.8579,
+    "train_miou": 0.7352,
+    "val_loss": 0.2297,
+    "val_acc": 0.8765,
+    "val_miou": 0.7064
+  }
+}
